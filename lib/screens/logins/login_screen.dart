@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:booksal/colors.dart';
+import 'package:booksal/colors.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -7,7 +7,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xff3c3668),
+      backgroundColor: primarycol,
       body: Center(
         child: Column(
           children: [
@@ -19,7 +19,7 @@ class LoginPage extends StatelessWidget {
               "Login".toUpperCase(),
               style: const TextStyle(
                 color: Colors.white,
-                // fontFamily: 'Segoe',
+                fontFamily: 'Segoe',
                 fontSize: 35,
               ),
             ),
